@@ -20,12 +20,12 @@ const PhoneView = () => {
         }
     }, [search, contactList]);
 
-
     return (
         <>
             <Header title={'연락처'} />
             <Search />
             <ViewBox>
+                <em>({contactList.length})</em>
                 {seachFilter.map((item, idx) => (
                     <Item key={idx}>
                         <Figure>

@@ -14,6 +14,10 @@ export const ViewBox = styled.ul`
         background: #ccc;
         border-radius: 10px;
     }
+    em {
+        font-size: 18px;
+        color: #333;
+    }
 `
 
 export const Item = styled.li`
